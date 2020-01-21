@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etuname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.161" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etpass"
         android:layout_width="243dp"
         android:layout_height="64dp"
         android:ems="10"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnlogin"
         android:layout_width="115dp"
         android:layout_height="63dp"
         android:text="Login"
@@ -69,10 +69,10 @@
         app:layout_constraintVertical_bias="0.655" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnfpass"
         android:layout_width="111dp"
         android:layout_height="62dp"
-        android:text="Forget  Password"
+        android:text="Forgot  Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.756"

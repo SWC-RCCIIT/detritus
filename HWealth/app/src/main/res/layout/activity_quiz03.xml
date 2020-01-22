@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quiz01">
+    tools:context=".Quiz03">
 
     <TextView
         android:id="@+id/tvq"
         android:layout_width="336dp"
         android:layout_height="93dp"
-        android:text="Liquids in the mouth and stomach which help break down  foods into materials which the body can use ?"
+        android:text="Substances found in food that help your body grow and develop."
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/an1"
         android:layout_width="355dp"
         android:layout_height="93dp"
-        android:text="Digestive juices"
+        android:text="Protein"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.574"
@@ -36,7 +36,7 @@
         android:id="@+id/an2"
         android:layout_width="362dp"
         android:layout_height="88dp"
-        android:text="Tall cinnamon latte"
+        android:text="Nutrients"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.653"
@@ -48,7 +48,7 @@
         android:id="@+id/an3"
         android:layout_width="365dp"
         android:layout_height="88dp"
-        android:text="glass of cold water"
+        android:text="Fibre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.652"
@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.882" />
 
     <Button
-        android:id="@+id/btnq01"
+        android:id="@+id/btnq03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
@@ -90,5 +90,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.898" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

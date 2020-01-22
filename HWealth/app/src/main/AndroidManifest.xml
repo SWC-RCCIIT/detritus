@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Quiz01"></activity>
+        <activity android:name=".score"></activity>
+        <activity android:name=".Quiz04" />
+        <activity android:name=".Quiz05" />
+        <activity android:name=".Quiz03" />
+        <activity android:name=".quiz" />
+        <activity
+            android:name=".navDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myProfile" />
+        <activity android:name=".Quiz02" />
+        <activity android:name=".Quiz01" />
         <activity
             android:name=".registrationActivity"
             android:screenOrientation="portrait" />

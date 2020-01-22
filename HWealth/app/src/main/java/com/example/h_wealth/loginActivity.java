@@ -24,11 +24,14 @@ import java.util.Map;
 
 public class loginActivity extends AppCompatActivity {
 
+    public long qno;
+
     Button login, fpass;
     EditText username, password;
 
 
     public FirebaseFirestore userdb = FirebaseFirestore.getInstance();
+    public DocumentReference countref = FirebaseFirestore.getInstance().collection("quiz").document("count");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,18 +74,26 @@ public class loginActivity extends AppCompatActivity {
                     //dashboard
 
                     Toast.makeText(loginActivity.this, "Logged in !!!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(loginActivity.this, Quiz01.class));
+
+                   updatecounter();
+
+                    startActivity(new Intent(loginActivity.this, navDrawer.class));
 
                 }
 
-                else{
-                    Toast.makeText(loginActivity.this, "invalid login criteria !!!", Toast.LENGTH_SHORT).show();
+                if(uname.isEmpty()  || pass.isEmpty()){
+                    Toast.makeText(loginActivity.this, "error !!", Toast.LENGTH_SHORT).show();
                 }
 
             }
         });
     }
+    public  void updatecounter(){
 
+        qno = 1;
+
+        countref.update("count", qno);
+    }
 
 
 }

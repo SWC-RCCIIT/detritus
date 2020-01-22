@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">H-Wealth</string>
+
+    <string name="occupation">Occupation</string>
+
+    <string-array name="occ_arrays">
+        <item>Select Occupation</item>
+        <item>Government Sector</item>
+        <item>Private Sector</item>
+        <item>Entrepreneur/ Self-employed</item>
+        <item>Student</item>
+        <item>Business</item>
+    </string-array>
+
+    <string name="mstat">Marital Status</string>
+
+    <string-array name="m_arrays">
+        <item>Marital Status</item>
+        <item>Married</item>
+        <item>Unmarried</item>
+        <item>Widowed</item>
+    </string-array>
+
+
+    <string name="sex">Sex</string>
+
+    <string-array name="s_arrays">
+        <item>Sex</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
 </resources>
